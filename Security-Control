@@ -1,0 +1,210 @@
+ Deep Dive into CIA Triad---- 
+
+ Confidentiality 
+
+Relates to permitting authorized access to information, while at the same time protecting information from improper disclosure. 
+
+Personally Identifiable Information (PII) - Pertains to any data about an individual that could be used to identify them. 
+
+Protected Health Information (PHI) - Regarding one’s health status. 
+
+Classified or Sensitive Information - Trade Secrets, Research, Business Plans and Intellectual Property. 
+
+Sensitivity - Measure of importance assigned to information by its owner. 
+
+Integrity 
+
+Measures the degree to which something is whole and complete, internally consistent and correct. 
+
+
+Data Integrity - Assurance that data has not been altered in a unauthorized manner. It covers data in storage, during process and in transit. 
+
+System Integrity - Refers to maintenance of a known good configuration and expected operational function of a system. This begins by knowing the current state of the system and trying to maintain it from unauthorized changes. 
+
+
+Availability 
+
+Systems and data are accessible at the time users need them. 
+
+Associated with criticality as it represents the importance an organization gives to data or an information system in performing its operation or achieving its mission. 
+
+ 
+
+Authentication 
+
+ 
+
+When users have stated their identity, it is necessary to validate that they are the rightful owners of that identity. This process of verifying or proving the user’s identification is known as authentication Simply put, authentication is a process to prove the identity of the requestor. 
+
+There are three common methods of authentication: 
+
+Something you know: Passwords or paraphrases. 
+
+Something you have tokens, memory cards, smart cards. 
+
+Something you are: Biometrics, measurable characteristics. 
+
+Non-Repudiation 
+
+ 
+
+Legal term and is defined as the protection against an individual falsely denying having performed a particular action. 
+
+It provides the capability to determine whether a given individual took a particular action, such as created information, approved information or sent or received a message. 
+
+Non-repudiation methodologies ensure that people are held responsible for transactions they conducted. 
+
+ 
+
+ 
+
+Risk Management Terminologies 
+
+ 
+
+An asset is something in need of protection. 
+
+A vulnerability is a gap or weakness in those protection efforts. 
+
+A threat is something or someone that aims to exploit a vulnerability to thwart (Prevent) protection efforts. Typical threat actors includes: 
+
+Insider (Deliberately a simple human error / Gross incompetence). 
+
+Outsiders or informal groups (Planned / Opportunistic). 
+
+Formal entities (Nonpolitical) - Business competitors, Cybercriminals. 
+
+Formal entities (Political) - Nation-States, Terrorists, Hacktivists. 
+
+Intelligence or information gatherers. 
+
+Technology like bots, AI, etc. 
+
+Risk is the intersection of these terms. 
+
+When determining an organization’s vulnerabilities, the security team will consider the probability, or likelihood , of a potential vulnerability being exploited within the construct of the organization’s threat environment. 
+
+Impact is the magnitude of harm that can be expected to result from the consequences of unauthorized disclosure of information, unauthorized modification of information, unauthorized destruction of information, or loss of information or information system availability. 
+
+Risk Identification - Not a one-and-done activity. It’s a recurring process of identifying different possible risks, characterizing them and then estimating their potential for disrupting the organization. 
+
+Takeaways to remember about risk identification:  
+
+Identify risk to communicate it clearly.  
+
+Employees at all levels of the organization are responsible for identifying risk. 
+
+Identify risk to protect against it. 
+
+Risk assessment is a process of identifying, estimating and prioritizing risks to an organization’s operations (Including its mission, functions, image and reputation), assets, individuals, other orgs and even the nation. 
+
+The result of the risk assessment process is often documented as a report or presentation given to management for their use in prioritizing the identified risk(s). 
+
+Risk Treatment relates to making decisions about the best actions to take regarding the identified and prioritized risk. 
+
+The options commonly used to respond to risk are: 
+
+Avoidance 
+
+Risk avoidance is the decision to attempt to eliminate the risk entirely. 
+
+This could include ceasing operation for some or all of the activities of the organization that are exposed to a particular risk. 
+
+Organization leadership may choose risk avoidance when the potential impact of a given risk is too high or if the likelihood of the risk being realized is simply too great. 
+
+Acceptance 
+
+Risk acceptance is taking no action to reduce the likelihood of a risk occurring. 
+
+Management may opt for conducting the business function that is associated with the risk without any further action on the part of the organization, 
+
+either because the impact or likelihood of occurrence is negligible, or because the benefit is more than enough to offset that risk. 
+
+Mitigation 
+
+Risk mitigation is the most common type of risk management and includes taking actions to prevent or reduce the possibility of a risk event or its impact. 
+
+Mitigation can involve remediation measures, or controls, such as security controls, establishing policies, procedures, and standards to minimize adverse risk. 
+
+Risk cannot always be mitigated, but mitigations such as safety measures should always be in place. 
+
+Transfer 
+
+Risk transference is the practice of passing the risk to another party, who will accept the financial impact of the harm resulting from a risk being realized in exchange for payment. Typically, this is an insurance policy. 
+
+Risk Priorities 
+- Qualitative and quantitative risk analysis. 
+- Below is a Risk Matrix with 4 quadrants. 
+- For example, a low likelihood and a low impact might result in a low priority, 
+- While an incident with a high likelihood and high impact will result in a high priority.
+
+
+
+Risk Tolerance 
+
+The perception management takes toward risk is often likened to the entity’s appetite for risk. 
+
+How much risk are they willing to take? Does management welcome risk or want to avoid it? 
+
+The level of risk tolerance varies across organizations, and even internally: Different departments may have different attitudes toward what is acceptable or unacceptable risk. 
+
+ 
+
+Security Control 
+
+ 
+
+Physical, technical and administrative mechanisms that act as safeguards or countermeasures prescribed for an information system to protect the confidentiality, integrity and availability of the system and its information. 
+
+The implementation of controls should reduce risk, hopefully to an acceptable level. 
+
+
+Physical Control 
+
+Such as badge readers, architectural features of building and facilities. 
+
+Controlling, directing or preventing the movement of people and equipment throughout a specific physical location. 
+
+In most situations, physical controls are supported by technical controls. 
+
+Technical Control 
+
+a.k.a logical controls that computer systems and networks directly implement. 
+
+Can provide automated protection from unauthorized access or misuse, facilitate detection of security violations. 
+
+Administrative Control 
+
+a.k.a managerial controls that are directives, guidelines or advisories aimed to mostly within the organization 
+
+ 
+
+Governance 
+
+ 
+
+Procedures are the detailed steps to complete a task that support departmental or organizational policies. 
+
+Policies are put in place by organizational governance, such as executive management, to provide guidance in all activities to ensure that the organization supports industry standards and regulations. 
+
+Standards are often used by governance teams to provide a framework to introduce policies and procedures in support of regulations. 
+
+International Organization for Standardization (ISO) - develops and publishes international standards on a variety of technical subjects. 
+
+National Institute of Standards and Technology (NIST) - US Gov. agency that publishes variety of tech standards. 
+
+Internet Engineering Task Force (IEFT) - Standards in communication protocols 
+
+Institute of Electrical and Electronics Engineers (IEEE) - Standards in telecommunication, computer engineering and similar disciplines. 
+
+ 
+
+ Regulations are commonly issued in the form of laws, usually from government (not to be confused with governance) and typically carry financial penalties for noncompliance. 
+
+General Data Protection Regulation (GDPR) - controls use of personally identifiable information (PII) of its citizen and those in EU. 
+
+Health Insurance Portability and Accountability Act (HIPAA) - governs the use of protected health information (PHI) in US. 
+
+ 
+
+ 

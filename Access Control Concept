@@ -1,0 +1,200 @@
+Access Control 
+
+ 
+
+Access controls are not just about restricting access to information systems and data, but also about allowing access. 
+
+It is about granting the appropriate level of access to authorized personnel and processes and denying access to unauthorized functions or individuals. 
+
+Access is based on three elements: 
+
+Subjects - an entity that requests access to the assets. 
+
+Objects - anything that a subject attempts to access. 
+
+Rules - instruction to allow/deny an object to access. 
+
+Defense in depth 
+
+ 
+
+Defense in depth describes an information security strategy that integrates people, technology, and operations capabilities to establish variable barriers across multiple layers and missions of the organization. 
+
+It applies multiple countermeasures in a layered fashion to fulfill security objectives. Defense in depth should be implemented to prevent or deter a cyberattack, but it cannot guarantee that an attack will not occur. 
+
+
+Principle of Least Privilege 
+
+ 
+
+Or is even often referred to as Least Privilege Principle 
+
+Standard of permitting only minimum access necessary for users or programs to fulfill their function. 
+
+Users are provided access only to the systems and programs they need to perform their specific job or tasks. 
+
+Privileged Access Management 
+
+ 
+
+Consider a human user identity that is granted various create, read, update, and delete privileges on a database. 
+
+Without privileged access management, the system’s access control would have those privileges assigned to the administrative user in a static way, effectively “on” 24 hours a day, every day. 
+
+Security would be dependent upon the login process to prevent misuse of that identity. 
+
+Just-in-time (JIT) privileged access management, by contrast, includes role-based specific subsets of privileges that only become active in real-time when the identity is requesting the use of a resource or service. 
+
+ABC, Inc., has a small IT department that is responsible for user provisioning and administering systems. To save time, the IT department employees added their IDs to the Domain Admins group, effectively giving them access to everything within the Windows server and workstation environment. While reviewing an invoice that was received via email, they opened an email that had a malicious attachment that initiated a ransomware attack. Since they are using Domain Admin privileges, the ransomware was able to encrypt all the files on all servers and workstations. A privileged access management solution could limit the damage done by this ransomware if the administrator privileges are only used when performing a function requiring that level of access. Routine operations, such as daily email tasks, are done without a higher level of access. 
+
+Segregation of duties 
+
+ 
+
+A core element of authorization is the principle of segregation of duties (also known as separation of duties). 
+
+Segregation of duties is based on the security practice that no one person should control an entire high-risk transaction from start to finish. 
+
+Segregation of duties breaks the transaction into separate parts and requires a different person to execute each part of the transaction. 
+
+Two-Person Integrity 
+
+ 
+
+The two-person rule is a security strategy that requires a minimum of two people to be in an area together, making it impossible for a person to be in the area alone. 
+
+Use of the two-person rule can help reduce insider threats to critical areas by requiring at least two individuals to be present at any time. 
+
+It is possible, of course, that two individuals can willfully work together to bypass the segregation of duties so that they could jointly commit fraud. This is called collusion. 
+
+Some personnel know one of the combinations and some know the other, but no one person knows both combinations. Two people must work together to open the vault; thus, the vault is under dual control. 
+
+Physical Security Controls 
+
+ 
+
+Physical mechanisms deployed to prevent, monitor, or detect direct contact with systems or areas within a facility. 
+
+Examples of physical access controls include security guards, fences, motion detectors, locked doors/gates, sealed windows, lights, cable protection, laptop locks, badges, swipe cards, guard dogs, cameras, mantraps/turnstiles, and alarms. 
+
+Badge Systems / Gate Entry 
+
+Turnstiles 
+
+Mantraps 
+
+Range of card type access control mechanisms 
+
+Bar Code 
+
+Magnetic Stripe 
+
+Proximity 
+
+Smart 
+
+Hybrid 
+
+CPTED - Crime Prevention Through Environmental Design 
+
+Biometrics 
+
+Takes two primary forms: Physiological and Behavioral 
+
+Physiological systems 
+
+Measure the characteristics of a person such as a fingerprint, iris scan (the colored portion around the outside of the pupil in the eye), retinal scan (the pattern of blood vessels in the back of the eye), palm scan and venous scans that look for the flow of blood through the veins in the palm. 
+
+Some biometrics devices combine processes together—such as checking for pulse and temperature on a fingerprint scanner—to detect counterfeiting. 
+
+Behavioral systems 
+
+Measure how a person acts by measuring voiceprints, signature dynamics, and keystroke dynamics. 
+
+As a person types, a keystroke dynamics system measures behavior such as the delay rate (how long a person holds down a key) and transfer rate (how rapidly a person moves between keys). 
+
+Logical Access Control 
+
+ 
+
+Controls are electronic methods that limit someone from getting access to systems, and sometimes even to tangible assets or areas. Types of logical access controls include:  
+
+Passwords. 
+
+Biometrics (implemented on a system, such as a smartphone or a laptop). 
+
+Badge/token readers connected to a system. 
+
+Discretionary Access Control (DAC) 
+
+This methodology relies on the discretion of the owner of the access control object to determine the access control subject’s specific rights. 
+
+Hence, security of the object is literally up to the discretion of the object owner. 
+
+DACs are not very scalable; they rely on the access control decisions made by each individual object owner, and it can be difficult to find the source of access control issues when problems occur. 
+
+Can do one or more of the following: 
+
+Pass the information to other subjects or objects.  
+
+Grant its privileges to other subjects. 
+
+Change security attributes on subjects, objects, information systems, or system components. 
+
+Choose the security attributes to be associated with newly created or revised objects; and/or, 
+
+Change the rules governing access control; mandatory access controls restrict this capability. 
+
+This grants the user almost the same level of access as the original owner of the file. 
+
+Rule-based access control systems are usually a form of DAC. 
+
+Mandatory Access Control (MAC) 
+
+Enforced across all subjects and objects within the boundary of an information system. 
+
+Only properly designated security administrators, as trusted subjects, can modify any of the security rules that are established for subjects and objects within the system. 
+
+This also means that for all subjects defined by the organization (that is, known to its integrated identity management and access control system), the organization assigns a subset of total privileges for a subset of objects, such that 
+
+The subject is constrained from doing any of the following: 
+
+Passing the information to unauthorized subjects or objects  
+
+Granting its privileges to other subjects  
+
+Changing one or more security attributes on subjects, objects, the information system, or system components  
+
+Choosing the security attributes to be associated with newly created or modified objects  
+
+Changing the rules governing access control  
+
+MAC vs DAC? 
+
+The primary difference is who can control access. 
+
+With Mandatory Access Control, it is mandatory for security administrators to assign access rights or permissions; whereas 
+
+With Discretionary Access Control, it is up to the object owner’s discretion. 
+
+MAC also requires well planning and continuous monitoring. 
+
+Role-Based Access Control (RBAC) 
+
+Role-based access control provides each worker privileges based on what role they have in the organization. 
+
+Monitoring these role-based permissions is important, because if you expand one person’s permissions for a specific reason - 
+
+say, a junior worker’s permissions might be expanded so they can temporarily act as the department manager - 
+
+but you forget to change their permissions back when the new manager is hired, then the next person to come in at that junior level might inherit those permissions when it is not appropriate for them to have them. 
+
+This is called privilege creep or permissions creep - the gradual accumulation of access rights beyond what an individual needs to do his or her job. 
+
+ 
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,161 @@
+Incident Terminology 
+
+ 
+ 
+
+Breach 
+
+The loss of control, compromise, unauthorized disclosure, unauthorized acquisition, or any similar occurrence where: 
+
+a person other than an authorized user accesses or potentially accesses personally identifiable information; 
+
+or an authorized user accesses personally identifiable information for other than an authorized purpose. 
+
+Event - Any observable occurrence in a network or system. 
+
+Exploit - A particular attack. It is named this way because these attacks exploit system vulnerabilities. 
+
+Incident - An event that actually or potentially jeopardizes the CIA of an information system or the information the system processes, stores or transmits. 
+
+Intrusion - A security event, or combination of events, that constitutes a deliberate security incident in which an intruder gains, or attempts to gain, access to a system or system resource without authorization. 
+
+Threat 
+
+Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image or reputation), 
+
+organizational assets, individuals, other organizations or the nation through an information system 
+
+via unauthorized access, destruction, disclosure, modification of information and/or denial of service. 
+
+Vulnerability - Weakness in an information system, system security procedures, internal controls or implementation that could be exploited by a threat source. 
+
+Zero Day - A previously unknown system vulnerability with the potential of exploitation without risk of detection or prevention because it does not, in general, fit recognized patterns, signatures or methods. 
+
+Components of incident response 
+
+ 
+
+
+Preparation 
+
+Develop a policy approved by management. 
+
+Identify critical data and systems, single points of failure. 
+
+Train staff on incident response. 
+
+Implement an incident response team. 
+
+Practice Incident Identification. (First Response) 
+
+Identify Roles and Responsibilities. 
+
+Plan the coordination of communication between stakeholders. 
+
+Consider the possibility that a primary method of communication may not be available. 
+
+Detection and Analysis 
+
+Monitor all possible attack vectors. 
+
+Analyze incident using known data and threat intelligence. 
+
+Prioritize incident response. 
+
+Standardize incident documentation. 
+
+Containment 
+
+Gather evidence. 
+
+Choose an appropriate containment strategy. 
+
+Identify the attacker. 
+
+Isolate the attack. 
+
+Post-Incident Activity 
+
+Identify evidence that may need to be retained. 
+
+Document lessons learned. 
+
+Retrospective 
+
+Preparation. 
+
+Detection and Analysis. 
+
+Containment, Eradication and Recovery. 
+
+Post-incident Activity. 
+
+ 
+
+ 
+
+Incident Response Team 
+
+ 
+
+Organizations have a dedicated team responsible for investigating any computer security incidents that take place. 
+
+CIRTs - Computer Incident Response Teams. 
+
+CSIRTs - Computer Security Incident Response Teams. 
+
+They have the responsibility to 
+
+Determine the amount and scope of damage caused by the incident. 
+
+Determine whether any confidential information was compromised during the incident. 
+
+Implement any necessary recovery procedures to restore security and recover from incident-related damage. 
+
+Supervise the implementation of any additional security measures necessary to improve security and  
+
+prevent recurrence of the incident. 
+
+ 
+
+ 
+
+Business Continuity Planning (BCP) 
+
+ 
+
+Proactive development of procedures to restore business operations after a disaster or other significant disruption to the organization. 
+
+Some common components of a comprehensive business continuity plan includes: 
+
+List of the BCP team members, including multiple contact methods and backup members. 
+
+Immediate response procedures and checklists. 
+
+Notification systems and call trees for alerting personnel that the BCP is being enacted. 
+
+Guidance for management, including designation of authority for specific managers. 
+
+How/when to enact the plan. 
+
+Contact numbers for critical members of the supply chain (vendors, customers, possible external emergency providers, third-party partners) 
+
+ 
+
+Disaster Recovery (DR) 
+
+ 
+
+Disaster recovery refers specifically to restoring the information technology and communications services and systems needed by an organization, both during the period of disruption caused by any event and during restoration of normal services. 
+
+The recovery of a business function may be done independently of the recovery of IT and communications services; however, the recovery of IT is often crucial to the recovery and sustainment of business operations. 
+
+Whereas business continuity planning is about maintaining critical business functions, 
+
+disaster recovery planning is about restoring IT and communications back to full operations after a disruption. 
+
+ 
+
+Chapter-3[Access Control Concept] 
+
+Chapter-1[Security Controls] 

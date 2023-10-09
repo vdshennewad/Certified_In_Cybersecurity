@@ -1,0 +1,110 @@
+Data Handling 
+
+ 
+
+Data itself goes through its own life cycle as users create, use, share and modify it. 
+
+
+Degaussing 
+
+Process of reducing or eliminating unwanted data on disks using strong magnets. 
+
+Data Handling Practices 
+
+ 
+
+Classification 
+
+Process of recognizing the organizational impacts if the information suffers any security compromises related to its characteristics of confidentiality, integrity and availability. 
+
+Information is then labeled and handled accordingly. 
+
+Classifications are derived from laws, regulations, contract-specified standards or other business expectations. 
+
+Labeling 
+
+Security labels are part of implementing controls to protect classified information. 
+
+It is reasonable to want a simple way of assigning a level of sensitivity to a data asset, such that the higher the level, 
+
+the greater the presumed harm to the organization, and thus the greater security protection the data asset requires. 
+
+Data Sensitivity Levels and Labels 
+
+Highly Restricted 
+
+Moderately Restricted 
+
+Low Sensitivity 
+
+Unrestricted Public Data 
+
+Event Logging Best Practices 
+
+ 
+
+Ingress monitoring refers to surveillance and assessment of all inbound communications traffic and access attempts. 
+
+Egress monitoring is used to regulate data leaving the organization’s IT environment. 
+
+Configuration Management Overview 
+
+ 
+
+Process and discipline used to ensure that the only changes made to a system are those that have been authorized and validated. 
+
+It is both a decision-making process and a set of control processes. 
+
+Identification 
+
+Baseline identification of a system and all its components, interfaces and documentation. 
+
+Baseline 
+
+A security baseline is a minimum level of protection that can be used as a reference point. 
+
+Baselines provide a way to ensure that updates to technology and architectures are subjected to the minimum understood and acceptable level of security requirements. 
+
+Change Control 
+
+An update process for requesting changes to a baseline, by means of making changes to one or more components in that baseline. 
+
+A review and approval process for all changes. This includes updates and patches. 
+
+Verification & Audit 
+
+A regression and validation process, which may involve testing and analysis, to verify that nothing in the system was broken by a newly applied set of changes. 
+
+An audit process can validate that the currently in-use baseline matches the sum total of its initial baseline plus all approved changes applied in sequence. 
+
+Common Security Policies 
+
+ 
+
+Data Handling Policy 
+
+Password Policy 
+
+Acceptable Use Policy (AUP) 
+
+Bring Your Own Device (BYOD) 
+
+Privacy Policy 
+
+Change Management Policy 
+
+Change Management Comportments 
+
+Request for change 
+
+Approval 
+
+Rollback 
+
+Repeat 
+
+ 
+
+ 
+
+Chapter-4[Network Security] 
